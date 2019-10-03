@@ -241,7 +241,7 @@ char setGameBoard(char gameBoard[ROW][COL])
 		gameBoard[row][col] = 'B';
 
 	}
-
+	
 	return gameBoard[ROW][COL];
 }
 
