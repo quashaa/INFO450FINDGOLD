@@ -11,7 +11,6 @@ char setGameBoard(char gameBoard[ROW][COL]);
 bool isBomb(char gameBoard[ROW][COL], int row, int col);
 bool isGold(char gameBoard[ROW][COL], int row, int col);
 
-
 int main()
 {
 	int r, c;
