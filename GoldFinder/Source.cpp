@@ -94,7 +94,7 @@ int playGame(char gameBoard[ROW][COL])
 	const int maxPoints = 5;
 	int row = 0, col = 0;
 	int guesses = 5;
-	int points = maxPoints;
+	int points = 0;
 
 	setGameBoard(gameBoard);
 
